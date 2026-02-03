@@ -6,5 +6,5 @@
 docker exec -it mautic_app php /var/www/html/bin/console doctrine:schema:update --force
 docker exec -it mautic_app php /var/www/html/bin/console cache:clear
 docker exec -it mautic_app php /var/www/html/bin/console mautic:plugins:reload
-
+و در اخر پلاگین در قسمت پلاگین های پنل ادمین mautic اضافه میشود
 متاسفانه پروژه به دلیل نبود اینترنت اون چیزی نشد که برای خودمم راضی کننده باشه معذرت میخواهم بابت نواقص به وجود امده متاسفانه با شرایط اینترنت موجود سه روز تمام تلاشم را کردم حتی نمیتونستم به راحتی به github وصل بشوم باز هم معذرت میخواهم ممنونم
