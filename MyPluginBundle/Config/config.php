@@ -5,6 +5,7 @@ return [
     'description' => 'Simple Mautic plugin with admin form',
     'version' => '1.0.0',
     'author' => 'pooria',
+    'services' => [],
 
     'routes' => [
         'main' => [
